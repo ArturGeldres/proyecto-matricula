@@ -1,0 +1,79 @@
+2025-10-21 19:16:27 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-10-21 19:16:27 [main] INFO  c.ie7073.sistema.SistemaApplication - Starting SistemaApplication using Java 21.0.7 with PID 19476 (C:\Users\artur\Documents\NetBeansProjects\SistemaIE7073\target\classes started by artur in C:\Users\artur\Documents\NetBeansProjects\SistemaIE7073)
+2025-10-21 19:16:27 [main] INFO  c.ie7073.sistema.SistemaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-21 19:16:29 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-21 19:16:29 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 140 ms. Found 2 JPA repository interfaces.
+2025-10-21 19:16:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-21 19:16:31 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-10-21 19:16:31 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-21 19:16:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-10-21 19:16:31 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-21 19:16:31 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4109 ms
+2025-10-21 19:16:32 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-21 19:16:32 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-10-21 19:16:32 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-21 19:16:33 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-21 19:16:33 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-21 19:16:33 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28831d69
+2025-10-21 19:16:33 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-21 19:16:33 [main] WARN  org.hibernate.dialect.Dialect - HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2025-10-21 19:16:35 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-21 19:16:35 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-21 19:16:36 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-21 19:16:36 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f9ab9a03-6c5a-493e-a5d9-a13ec37ea8c6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-21 19:16:37 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@52afcdd8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@397f925e, org.springframework.security.web.context.SecurityContextHolderFilter@73c1dda3, org.springframework.security.web.header.HeaderWriterFilter@441762b8, org.springframework.web.filter.CorsFilter@35975b05, org.springframework.security.web.authentication.logout.LogoutFilter@be186df, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5e75cf7a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f12fca0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@474deb4c, org.springframework.security.web.access.ExceptionTranslationFilter@6b6fde93, org.springframework.security.web.access.intercept.AuthorizationFilter@3b8a063d]
+2025-10-21 19:16:38 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-10-21 19:16:38 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2025-10-21 19:16:38 [main] INFO  c.ie7073.sistema.SistemaApplication - Started SistemaApplication in 12.847 seconds (process running for 13.801)
+2025-10-21 19:16:55 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-21 19:16:55 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-21 19:16:55 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-10-21 19:16:55 [http-nio-8081-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/auth/login' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-10-21 19:16:55 [http-nio-8081-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/auth/login' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-10-21 19:16:55 [http-nio-8081-exec-1] INFO  c.i.s.controller.AuthController - Intento de login para el usuario: jorge
+2025-10-21 19:16:56 [http-nio-8081-exec-1] INFO  c.i.s.controller.AuthController - Login exitoso para el usuario: jorge
+2025-10-21 19:32:10 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-10-21 19:32:10 [main] INFO  c.ie7073.sistema.SistemaApplication - Starting SistemaApplication using Java 21.0.7 with PID 18672 (C:\Users\artur\Documents\NetBeansProjects\SistemaIE7073\target\classes started by artur in C:\Users\artur\Documents\NetBeansProjects\SistemaIE7073)
+2025-10-21 19:32:10 [main] INFO  c.ie7073.sistema.SistemaApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-21 19:32:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-21 19:32:12 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 197 ms. Found 2 JPA repository interfaces.
+2025-10-21 19:32:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2025-10-21 19:32:14 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2025-10-21 19:32:14 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-21 19:32:14 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-10-21 19:32:14 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-21 19:32:14 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4128 ms
+2025-10-21 19:32:15 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-21 19:32:15 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-10-21 19:32:15 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-21 19:32:16 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-21 19:32:16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-21 19:32:16 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ea75b05
+2025-10-21 19:32:16 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-21 19:32:17 [main] WARN  org.hibernate.dialect.Dialect - HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions.
+2025-10-21 19:32:18 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-21 19:32:18 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-21 19:32:19 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-21 19:32:19 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: cf0c1a0f-c716-42c2-83de-4aca29fcec01
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-10-21 19:32:20 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5478597, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39a1e1e6, org.springframework.security.web.context.SecurityContextHolderFilter@610d0067, org.springframework.security.web.header.HeaderWriterFilter@6a8ab98f, org.springframework.web.filter.CorsFilter@2daa5092, org.springframework.security.web.authentication.logout.LogoutFilter@129348e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7a1878d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b625e82, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f346355, org.springframework.security.web.access.ExceptionTranslationFilter@2165d4ab, org.springframework.security.web.access.intercept.AuthorizationFilter@74691677]
+2025-10-21 19:32:21 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2025-10-21 19:32:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+2025-10-21 19:32:21 [main] INFO  c.ie7073.sistema.SistemaApplication - Started SistemaApplication in 12.017 seconds (process running for 12.885)
+2025-10-21 19:37:23 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-21 19:37:23 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-21 19:37:23 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-10-21 19:37:23 [http-nio-8081-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/reportes/alumnos/excel' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-10-21 19:37:23 [http-nio-8081-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/api/reportes/alumnos/excel' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-10-21 19:52:41 [http-nio-8081-exec-4] INFO  c.i.s.controller.AuthController - Intento de login para el usuario: jorge
+2025-10-21 19:52:41 [http-nio-8081-exec-4] INFO  c.i.s.controller.AuthController - Login exitoso para el usuario: jorge
+2025-10-21 21:22:04 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m46s84ms534µs800ns).

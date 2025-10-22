@@ -1,0 +1,12 @@
+com\ie7073\sistema\SistemaApplication.class
+com\ie7073\sistema\dto\LoginRequest.class
+com\ie7073\sistema\entity\Usuario.class
+com\ie7073\sistema\controller\AuthController.class
+com\ie7073\sistema\dto\AuthResponse.class
+com\ie7073\sistema\controller\MatriculaController.class
+com\ie7073\sistema\controller\ReporteController.class
+com\ie7073\sistema\config\SecurityConfig.class
+com\ie7073\sistema\repository\MatriculaRepository.class
+com\ie7073\sistema\dto\EstadoRequest.class
+com\ie7073\sistema\repository\UsuarioRepository.class
+com\ie7073\sistema\entity\Matricula.class
